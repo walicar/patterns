@@ -8,4 +8,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(src)
 
-add_executable(app src/main.cc)
+add_executable(app 
+	src/main.cc
+	src/strategy/duck.cc
+	src/strategy/mallard_duck.cc
+	src/strategy/rubber_duck.cc
+)
