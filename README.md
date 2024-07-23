@@ -1,2 +1,4 @@
 # Patterns
-A collection of desing patterns written in C++
+A collection of design patterns written in C++:
+- Strategy
+
